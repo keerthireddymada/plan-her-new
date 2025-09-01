@@ -1,0 +1,23 @@
+# FastAPI and ASGI server
+fastapi
+uvicorn[standard]==0.24.0
+
+# Database and ORM
+sqlalchemy
+alembic
+psycopg[binary]
+
+# Authentication and Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Data validation
+pydantic
+pydantic-settings
+email-validator
+
+# Machine Learning
+scikit-learn
+pandas
+numpy
